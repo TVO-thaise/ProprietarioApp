@@ -115,4 +115,6 @@ public class Proprietario extends RealmObject implements Serializable {
     public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
+
+    //classe proprietario
 }

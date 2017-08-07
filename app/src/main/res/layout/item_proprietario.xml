@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10sp"
+    android:orientation="horizontal"
+    android:padding="16sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nomeProprietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NomeProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/enderecoProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EnderecoProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/bairroProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BairroProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/cidadeProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CidadeProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/CNHProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CNHProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/telefoneProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TelefoneProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/e_mailProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E_mailProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/latitudeProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LatitudeProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/longitudeProrietario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LongitudeProprietario"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descricao"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
